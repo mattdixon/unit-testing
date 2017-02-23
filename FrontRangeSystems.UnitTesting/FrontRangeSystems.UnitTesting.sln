@@ -1,0 +1,100 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontRangeSystems.UnitTesting.TestingFramework", "FrontRangeSystems.UnitTesting.TestingFramework\FrontRangeSystems.UnitTesting.TestingFramework.csproj", "{0CFDE4D0-0FE6-44FA-A82D-84BF569D74BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontRangeSystems.UnitTesting.WindowsClient", "FrontRangeSystems.UnitTesting.WindowsClient\FrontRangeSystems.UnitTesting.WindowsClient.csproj", "{E703044C-A2C0-4153-878A-754D935B2509}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontRangeSystems.UnitTesting.WebClient", "FrontRangeSystems.UnitTesting.WebClient\FrontRangeSystems.UnitTesting.WebClient.csproj", "{DA7E092F-720E-49CC-A3E0-B2C0A0BCCE23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontRangeSystems.UnitTesting.Services", "FrontRangeSystems.UnitTesting.Services\FrontRangeSystems.UnitTesting.Services.csproj", "{F40258EC-13E1-4A2E-A2E7-57F1D4C1FE07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontRangeSystems.UnitTesting.Services.NUnitTests", "FrontRangeSystems.UnitTesting.Services.NUnitTests\FrontRangeSystems.UnitTesting.Services.NUnitTests.csproj", "{222FA64F-2D2F-4783-86BD-08504ED2E467}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontRangeSystems.UnitTesting.WebClient.NUnitTests", "FrontRangeSystems.UnitTesting.WebClient.NUnitTests\FrontRangeSystems.UnitTesting.WebClient.NUnitTests.csproj", "{667BCAA7-CAB2-43AD-8877-BAE39B93EAC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontRangeSystems.UnitTesting.WindowsClient.NUnitTests", "FrontRangeSystems.UnitTesting.WindowsClient.NUnitTests\FrontRangeSystems.UnitTesting.WindowsClient.NUnitTests.csproj", "{2F7639DB-6A19-4F57-A968-22FC833F1905}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontRangeSystems.UnitTesting.Services.MsTests", "FrontRangeSystems.UnitTesting.Services.MsTests\FrontRangeSystems.UnitTesting.Services.MsTests.csproj", "{230DF4AE-7D43-4499-B4EC-A0EF9972167C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontRangeSystems.UnitTesting.WebClient.MsTests", "FrontRangeSystems.UnitTesting.WebClient.MsTests\FrontRangeSystems.UnitTesting.WebClient.MsTests.csproj", "{480DE798-10BA-44A7-9ED0-E29FE5B868C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontRangeSystems.UnitTesting.WindowsClient.MsTests", "FrontRangeSystems.UnitTesting.WindowsClient.MsTests\FrontRangeSystems.UnitTesting.WindowsClient.MsTests.csproj", "{93FF281D-80FB-4629-86F5-9A1D0AA7CB70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{BE277909-1D46-4E70-9300-83BB577E41A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NUnit", "NUnit", "{53B85F24-401A-401C-978B-D6AB3BD0C6FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MsTest", "MsTest", "{A1AC87AB-0D79-4E9D-B425-6878B856825D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontRangeSystems.UnitTesting.Examples", "FrontRangeSystems.UnitTesting.Examples\FrontRangeSystems.UnitTesting.Examples.csproj", "{9A8A2606-4C30-4D74-ADAD-476CEEC885B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CFDE4D0-0FE6-44FA-A82D-84BF569D74BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CFDE4D0-0FE6-44FA-A82D-84BF569D74BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CFDE4D0-0FE6-44FA-A82D-84BF569D74BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CFDE4D0-0FE6-44FA-A82D-84BF569D74BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E703044C-A2C0-4153-878A-754D935B2509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E703044C-A2C0-4153-878A-754D935B2509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E703044C-A2C0-4153-878A-754D935B2509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E703044C-A2C0-4153-878A-754D935B2509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA7E092F-720E-49CC-A3E0-B2C0A0BCCE23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA7E092F-720E-49CC-A3E0-B2C0A0BCCE23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA7E092F-720E-49CC-A3E0-B2C0A0BCCE23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA7E092F-720E-49CC-A3E0-B2C0A0BCCE23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F40258EC-13E1-4A2E-A2E7-57F1D4C1FE07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F40258EC-13E1-4A2E-A2E7-57F1D4C1FE07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F40258EC-13E1-4A2E-A2E7-57F1D4C1FE07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F40258EC-13E1-4A2E-A2E7-57F1D4C1FE07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{222FA64F-2D2F-4783-86BD-08504ED2E467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{222FA64F-2D2F-4783-86BD-08504ED2E467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{222FA64F-2D2F-4783-86BD-08504ED2E467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{222FA64F-2D2F-4783-86BD-08504ED2E467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{667BCAA7-CAB2-43AD-8877-BAE39B93EAC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{667BCAA7-CAB2-43AD-8877-BAE39B93EAC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{667BCAA7-CAB2-43AD-8877-BAE39B93EAC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{667BCAA7-CAB2-43AD-8877-BAE39B93EAC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F7639DB-6A19-4F57-A968-22FC833F1905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F7639DB-6A19-4F57-A968-22FC833F1905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F7639DB-6A19-4F57-A968-22FC833F1905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F7639DB-6A19-4F57-A968-22FC833F1905}.Release|Any CPU.Build.0 = Release|Any CPU
+		{230DF4AE-7D43-4499-B4EC-A0EF9972167C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{230DF4AE-7D43-4499-B4EC-A0EF9972167C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{230DF4AE-7D43-4499-B4EC-A0EF9972167C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{230DF4AE-7D43-4499-B4EC-A0EF9972167C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{480DE798-10BA-44A7-9ED0-E29FE5B868C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{480DE798-10BA-44A7-9ED0-E29FE5B868C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{480DE798-10BA-44A7-9ED0-E29FE5B868C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{480DE798-10BA-44A7-9ED0-E29FE5B868C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93FF281D-80FB-4629-86F5-9A1D0AA7CB70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93FF281D-80FB-4629-86F5-9A1D0AA7CB70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93FF281D-80FB-4629-86F5-9A1D0AA7CB70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93FF281D-80FB-4629-86F5-9A1D0AA7CB70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A8A2606-4C30-4D74-ADAD-476CEEC885B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A8A2606-4C30-4D74-ADAD-476CEEC885B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A8A2606-4C30-4D74-ADAD-476CEEC885B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A8A2606-4C30-4D74-ADAD-476CEEC885B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0CFDE4D0-0FE6-44FA-A82D-84BF569D74BA} = {BE277909-1D46-4E70-9300-83BB577E41A7}
+		{222FA64F-2D2F-4783-86BD-08504ED2E467} = {53B85F24-401A-401C-978B-D6AB3BD0C6FF}
+		{667BCAA7-CAB2-43AD-8877-BAE39B93EAC4} = {53B85F24-401A-401C-978B-D6AB3BD0C6FF}
+		{2F7639DB-6A19-4F57-A968-22FC833F1905} = {53B85F24-401A-401C-978B-D6AB3BD0C6FF}
+		{230DF4AE-7D43-4499-B4EC-A0EF9972167C} = {A1AC87AB-0D79-4E9D-B425-6878B856825D}
+		{480DE798-10BA-44A7-9ED0-E29FE5B868C9} = {A1AC87AB-0D79-4E9D-B425-6878B856825D}
+		{93FF281D-80FB-4629-86F5-9A1D0AA7CB70} = {A1AC87AB-0D79-4E9D-B425-6878B856825D}
+		{53B85F24-401A-401C-978B-D6AB3BD0C6FF} = {BE277909-1D46-4E70-9300-83BB577E41A7}
+		{A1AC87AB-0D79-4E9D-B425-6878B856825D} = {BE277909-1D46-4E70-9300-83BB577E41A7}
+		{9A8A2606-4C30-4D74-ADAD-476CEEC885B9} = {A1AC87AB-0D79-4E9D-B425-6878B856825D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,93 @@
+<Window x:Class="FrontRangeSystems.UnitTesting.WindowsClient.Views.ShellView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Window.Resources>
+        <Style x:Key="TextSection" TargetType="{x:Type TextBlock}">
+            <Setter Property="FontSize" Value="24"/>
+        </Style>
+        <Style TargetType="{x:Type TextBox}">
+            <Setter Property="FontSize" Value="24"/>
+            <Setter Property="MinWidth" Value="50"/>
+        </Style>
+        <Style TargetType="{x:Type TextBlock}">
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+        <Style TargetType="{x:Type ComboBoxItem}">
+            <Setter Property="FontSize" Value="24"/>
+        </Style>
+        <Style TargetType="{x:Type ComboBox}">
+            <Setter Property="FontSize" Value="24"/>
+            <Setter Property="Width" Value="50"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="24">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="24"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <TextBlock Text="Calculator" Style="{DynamicResource TextSection}"/>
+        <Grid x:Name="CalculatorGrid" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            
+            <TextBox x:Name="First"/>
+            <ComboBox Grid.Column="1" x:Name="Operators"/>
+            <TextBox Grid.Column="2" x:Name="Second"/>
+            <TextBlock Grid.Column="3" Text="="/>
+            <TextBlock Grid.Column="4" x:Name="MathResult"/>
+        </Grid>
+
+        <TextBlock Text="Payout" Grid.Row="3" Style="{DynamicResource TextSection}"/>
+        <Grid x:Name="PayoutGrid" Grid.Row="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            
+            <TextBlock Text="Entry Fee:"/>
+            <TextBox x:Name="EntryFee" Grid.Column="1"/>
+            
+            <TextBlock Text="Entrants:" Grid.Row="1"/>
+            <TextBox x:Name="Entrants" Grid.Column="1" Grid.Row="1"/>
+            
+            <TextBlock Text="Deduction:" Grid.Row="2"/>
+            <TextBox x:Name="Deduction" Grid.Column="1" Grid.Row="2"/>
+
+            <TextBlock Text="Sponsor Money:" Grid.Row="3"/>
+            <TextBox x:Name="SponsorMoney" Grid.Column="1" Grid.Row="3"/>
+
+            <TextBlock Text="Payout Places:" Grid.Row="4"/>
+            <TextBox x:Name="PayoutPlaces" Grid.Column="1" Grid.Row="4"/>
+            
+            <TextBlock Text="Purse:" Grid.Row="5"/>
+            <TextBlock x:Name="Purse" Grid.Row="5" Grid.Column="1"/>
+            
+            <TextBlock Text="Prize Per Person:" Grid.Row="6"/>
+            <TextBlock x:Name="PrizePerPerson" Grid.Row="6" Grid.Column="1"/>
+        </Grid>
+        
+    </Grid>
+
+</Window>

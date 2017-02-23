@@ -1,0 +1,11 @@
+﻿# Directories #
+###############
+**/bin
+**/obj
+**/packages
+
+# User Files #
+##############
+*.suo
+*.user
+**/applicationhost.config

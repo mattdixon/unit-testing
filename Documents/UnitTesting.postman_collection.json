@@ -1,0 +1,278 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Unit Testing",
+		"_postman_id": "df13cfd4-9398-acfb-0a91-ab1796c3f173",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Math",
+			"description": "",
+			"item": [
+				{
+					"name": "Add",
+					"request": {
+						"url": "http://localhost:50101/api/math/add",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "first",
+									"value": "3.25",
+									"type": "text",
+									"enabled": true
+								},
+								{
+									"key": "second",
+									"value": "8.98",
+									"type": "text",
+									"enabled": true
+								}
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Subtract",
+					"request": {
+						"url": "http://localhost:50101/api/math/subtract",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "first",
+									"value": "82.10083",
+									"type": "text",
+									"enabled": true
+								},
+								{
+									"key": "second",
+									"value": "29876.298",
+									"type": "text",
+									"enabled": true
+								}
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Multiply",
+					"request": {
+						"url": "http://localhost:50101/api/math/multiply",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "first",
+									"value": "3.14",
+									"type": "text",
+									"enabled": true
+								},
+								{
+									"key": "second",
+									"value": "5",
+									"type": "text",
+									"enabled": true
+								}
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Divide",
+					"request": {
+						"url": "http://localhost:50101/api/math/divide",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "first",
+									"value": "8",
+									"type": "text",
+									"enabled": true
+								},
+								{
+									"key": "second",
+									"value": "2",
+									"type": "text",
+									"enabled": true
+								}
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Prize Money Calculation",
+			"description": "",
+			"item": [
+				{
+					"name": "Purse - no model",
+					"request": {
+						"url": "http://localhost:50101/api/prizemoneycalculation/purse",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "",
+									"value": "",
+									"type": "text",
+									"enabled": true
+								}
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Purse",
+					"request": {
+						"url": "http://localhost:50101/api/prizemoneycalculation/purse",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "entrants",
+									"value": "10",
+									"type": "text",
+									"enabled": true
+								},
+								{
+									"key": "entryFee",
+									"value": "100",
+									"type": "text",
+									"enabled": true
+								},
+								{
+									"key": "deduction",
+									"value": ".04",
+									"type": "text",
+									"enabled": true
+								},
+								{
+									"key": "sponsorMoney",
+									"value": "500",
+									"type": "text",
+									"enabled": true
+								}
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Payout",
+					"request": {
+						"url": "http://localhost:50101/api/prizemoneycalculation/payout",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "entrants",
+									"value": "50",
+									"type": "text",
+									"enabled": true
+								},
+								{
+									"key": "entryFee",
+									"value": "100",
+									"type": "text",
+									"enabled": true
+								},
+								{
+									"key": "deduction",
+									"value": ".06",
+									"type": "text",
+									"enabled": true
+								},
+								{
+									"key": "sponsorMoney",
+									"value": "200",
+									"type": "text",
+									"enabled": true
+								},
+								{
+									"key": "payoutPlaces",
+									"value": "5",
+									"type": "text",
+									"enabled": true
+								}
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
